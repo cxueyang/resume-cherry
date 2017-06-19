@@ -1,0 +1,51 @@
+body {
+  background-color: lightgrey;
+}
+/*select body and background red is a declaration, important to know how each declaration work together*/
+/*fonts are actually files, the viewer needs must have the font to be able to view it*/
+
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: grey;
+}
+/*just color refers to text color*/
+/*cascading - means if there are more specific instructions pertaining the h1 (rather than the body) the h1 will use the more specific instruction*/
+/*if the font is more than 2 hours, then you must have the "xyz" sign in to*/
+
+h2  {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(53, 117, 236, 0.78);
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 24px;
+  font-style: italic;
+  color: rgba(53, 117, 236, 0.78);
+}
+
+li {
+  background-color: rgb(42, 201, 73);
+  color: white;
+  font-size: 20px;
+}
+
+.lighten {
+  background-color: rgb(187, 62, 224);
+  color: rgb(166, 78, 29);
+}
+
+/*add class to subselect diff elements within a list*/
+/*class name can't start with a number */
+/*write classes as generic as possible so it can be used in many places*/
+/*you can add multiple classes to any element*/
+/*important: if there are directly competing classes, html will prioritize the class that was written most recently in css*/
+
+/*don't restrict the height*/
+/* '*' means it applies to call elements*/

@@ -1,0 +1,110 @@
+/************General Type Selectors************/
+
+/*all elements by default use the border as their width/height measurement*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(247, 248, 251);
+  margin: 0
+}
+
+
+
+/*image max size is 100% of actual image size so it doesn't get pixelated*/
+.maxsize {
+  display: block;
+  vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*adds a grey overlay on to the image*/
+.dimmed {
+  position: relative;
+  /*float: left;*/
+}
+
+.dimmed:after {
+  vertical-align: middle;
+  content: "";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  /*height: auto;*/
+  /*width: 100%;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+}
+
+
+/*font*/
+h1, h2, h3, p, ul{
+  font-family: 'Raleway', sans-serif;
+}
+
+/*h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}*/
+
+p {
+  /*font-size: 16px;*/
+  text-align: justify
+}
+
+/**********General Class Selectors**************/
+
+/*inline element centering: parent sets text-align: center, block element centering: element set its own margin: 0 auto*/
+/*.masthead {
+  text-align: center;
+}*/
+/**********Nav Bar Selectors**************/
+
+.menu {
+  padding: 0;
+  list-style: none;
+  color: rgba(1, 11, 18, 0.78);
+}
+
+.menu-item {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+
+/**********Body Selectors**************/
+
+
+
+
+/*paragraph is maximum 640 pixels wide*/
+/*center any block element*/
+
+/*.justify {
+  margin: 0 auto;
+  text-align: justify;
+}*/
+
+.center {
+  text-align: center;
+}
+
+
+
+
+
+/**********Footer Selectors**************/

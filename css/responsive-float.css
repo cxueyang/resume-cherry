@@ -1,0 +1,136 @@
+/*Default instructions*/
+/*font size for paragraphs and lists*/
+p, ul {
+  font-size: 14px;
+}
+
+/*center text content*/
+.middle {
+  width: 100%;
+
+/*logosize*/
+.logo{
+  max-width: 400px;
+  height: auto;
+  }
+
+/*container for the float*/
+.imagetext-container{
+  overflow: hidden;
+  }
+
+/*float the image left*/
+.imagetext-image {
+  max-width: 30%;
+  float: left;
+  }
+
+/*float the text left*/
+.imagetext-text {
+  float: left;
+  max-width: 70%;
+  }
+
+
+@media screen and (min-width: 640px) {
+
+p, ul {
+  font-size: 15px;
+}
+
+.middle {
+  width: 600px;
+}
+
+/*logosize*/
+.logo{
+  max-width: 400px;
+  height: auto;
+  }
+
+/*container for the float*/
+.imagetext-container{
+  overflow: hidden;
+  }
+
+/*float the image left*/
+.imagetext-image {
+  max-width: 30%;
+  float: left;
+  }
+
+/*float the text left*/
+.imagetext-text {
+  float: left;
+  max-width: 70%;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+
+p, ul {
+  font-size: 18px;
+}
+
+.middle {
+  width: 900px;
+}
+
+.logo{
+  max-width: 400px;
+  height: auto;
+  }
+
+/*container for the float*/
+.experience{
+  overflow: hidden;
+  }
+
+/*float the image left*/
+.logoleft {
+  max-width: 30%;
+  float: left;
+  }
+
+/*float the text left*/
+.textright {
+  float: left;
+  max-width: 70%;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+p, ul {
+  font-size: 20px;
+  }
+
+.middle {
+  width: 1100px;
+  }
+
+.logo{
+  max-width: 400px;
+  height: auto;
+  }
+
+/*container for the float*/
+.experience{
+  overflow: hidden;
+  }
+
+/*float the image left*/
+.logoleft {
+  max-width: 30%;
+  float: left
+  }
+
+/*float the text left*/
+.textright {
+  float: left;
+  max-width: 70%;
+  }
+
+}
